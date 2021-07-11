@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+	padding:0;
+	background:#060606;
+	user-select: none; 
+	font-family:'Open Sans', Sans Serif;
+}
+@keyframes bck {
+  from {background-position:300px 0;}
+  to {background-position:0 240px;}
+}
+.hex-grid {
+	list-style:none;
+	padding:0;
+	margin:0;
+	margin:0 auto;
+	padding:12px 24px 12px 24px;
+	border-radius:8px;
+	background:#000;
+    background-color:#234!important;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 240'%3E%3Cpolygon points='0 240 60 240 30 180 0 240' fill='%230002'/%3E%3Cpolygon points='0 180 0 240 30 180 0 180' fill='%230003'/%3E%3Cpolygon points='0 60 0 120 30 60 0 60' fill='%230004'/%3E%3Cpolygon points='0 0 0 60 30 60 0 0' fill='%230002'/%3E%3Cpolygon points='0 120 0 180 30 180 0 120' fill='%230002'/%3E%3Cpolygon points='240 120 210 60 180 120 240 120' fill='%230004'/%3E%3Cpolygon points='90 60 60 0 30 60 90 60' fill='%230002'/%3E%3Cpolygon points='120 0 60 0 90 60 120 0' fill='%230001'/%3E%3Cpolygon points='180 0 120 0 150 60 180 0' fill='%230002'/%3E%3Cpolygon points='240 0 180 0 210 60 240 0' fill='%230005'/%3E%3Cpolygon points='30 60 60 120 90 60 30 60' fill='%230001'/%3E%3Cpolygon points='30 60 0 120 60 120 30 60' fill='%230003'/%3E%3Cpolygon points='60 0 0 0 30 60 60 0' fill='%230003'/%3E%3Cpolygon points='90 60 60 120 120 120 90 60' fill='%230002'/%3E%3Cpolygon points='60 240 120 240 90 180 60 240' fill='%230005'/%3E%3Cpolygon points='150 60 90 60 120 120 150 60' fill='%230005'/%3E%3Cpolygon points='210 60 150 60 180 120 210 60' fill='%230001'/%3E%3Cpolygon points='90 180 150 180 120 120 90 180' fill='%230001'/%3E%3Cpolygon points='270 180 300 240 300 180 270 180' fill='%230003'/%3E%3Cpolygon points='270 180 300 120 240 120 270 180' fill='%230001'/%3E%3Cpolygon points='30 180 90 180 60 120 30 180' fill='%230001'/%3E%3Cpolygon points='270 60 210 60 240 120 270 60' fill='%230005'/%3E%3Cpolygon points='60 120 0 120 30 180 60 120' fill='%230004'/%3E%3Cpolygon points='60 120 90 180 120 120 60 120' fill='%230003'/%3E%3Cpolygon points='120 120 150 180 180 120 120 120' fill='%230002'/%3E%3Cpolygon points='210 180 240 240 270 180 210 180' fill='%230003'/%3E%3Cpolygon points='150 180 210 180 180 120 150 180' fill='%230005'/%3E%3Cpolygon points='180 240 240 240 210 180 180 240' fill='%230002'/%3E%3Cpolygon points='240 240 300 240 270 180 240 240' fill='%230004'/%3E%3Cpolygon points='120 240 180 240 150 180 120 240' fill='%230005'/%3E%3Cpolygon points='180 120 150 60 120 120 180 120' fill='%230003'/%3E%3Cpolygon points='300 180 300 120 270 180 300 180' fill='%230002'/%3E%3Cpolygon points='270 60 240 0 210 60 270 60' fill='%230002'/%3E%3Cpolygon points='240 120 300 120 270 60 240 120' fill='%230007'/%3E%3Cpolygon points='210 180 270 180 240 120 210 180' fill='%230002'/%3E%3Cpolygon points='210 60 180 0 150 60 210 60' fill='%230003'/%3E%3Cpolygon points='150 60 120 0 90 60 150 60' fill='%230003'/%3E%3Cpolygon points='90 180 120 240 150 180 90 180' fill='%230003'/%3E%3Cpolygon points='150 180 180 240 210 180 150 180' fill='%230004'/%3E%3Cpolygon points='180 120 210 180 240 120 180 120' fill='%230001'/%3E%3Cpolygon points='30 180 60 240 90 180 30 180' fill='%230006'/%3E%3Cpolygon points='300 60 300 0 270 60 300 60' fill='%230002'/%3E%3Cpolygon points='300 120 300 60 270 60 300 120' fill='%230004'/%3E%3Cpolygon points='300 0 240 0 270 60 300 0' fill='%230005'/%3E%3C/svg%3E");
+    background-size:300px;
+    background-attachment:fixed;
+	animation: bck 15s linear infinite;
+}
+.hex-grid-body {
+	padding:14px 0;
+}
+.hex-grid-row {
+	display:flex;
+	justify-content:center;
+	margin:0;
+}
+.hex-grid .node::after {
+	content:"";
+	position:absolute;
+	inset:0;
+	pointer-events:none;
+	background-size:100%;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100' width='100'%3E%3Cpath d=' M75 0, L100 50, L75 100, L25 100, L0 50, L25 0 M28 4, L5 50, L28 96, L72 96, L95 50, L72 4'/%3E%3C/svg%3E");
+}
+.hex-grid .node {
+	margin:2px;
+	width:72px;
+	height:62px;
+	clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+	margin:3px -6px;
+	text-align:center;
+	border:0;
+	outline:0;
+	align-items:center;
+	cursor:default;
+	font-weight:700;
+	font-size:10;
+	padding:12px 0;
+	overflow:hidden;
+	font-family: 'Roboto Mono', monospace;
+	resize:none;
+}
+.node:nth-child(2n) {
+	transform:translateY(-34px);
+}
+.node {background:#0000;}
+.node:placeholder-shown {background:#0000}
+.node:hover {
+	box-shadow:inset 0 0 80px #fde2;
+}
+.c-1 {background-color:#46f!important;color:#eee}
+.c-2 {background-color:#4c6!important;color:#eee}
+.c-3 {background-color:#fe4!important;color:#333}
+.c-4 {background-color:#f35!important;color:#eee}
+.c-5 {background-color:#d2e!important;color:#eee}
+.c-6 {
+	background:
+		linear-gradient(30deg, rgba(255,255,0,0) 40%, rgba(255,255,0,.5) 100%),
+		linear-gradient(270deg, rgba(255,0,255,0) 40%, rgba(255,0,255,.5) 100%),
+		linear-gradient(150deg, rgba(255,0,0,0) 40%, rgba(0,255,255,.5) 100%),
+		linear-gradient(150deg, rgba(255,0,0,1) 5%, rgba(255,0,0,0) 50%),
+		linear-gradient(30deg, rgba(0,0,255,1) 5%, rgba(0,0,255,0) 50%),
+		linear-gradient(270deg, rgba(0,255,0,1) 5%, rgba(0,255,0,0) 50%),
+		#fff!important;
+	color:#fff;
+	text-shadow:0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000,0 0 1px #000;
+	}
+.node::placeholder {color:#0000}
+.rad-hid {
+	position:fixed;
+	top:-100vh;
+}
+.container {
+	width:100%;
+	position:relative;
+	clear:both;	
+	float:none;
+	min-height:60px;
+	max-width:1200px;
+	margin:0 auto;
+}
+.color-pool > div {
+	width:12.5%;
+	margin:8px 0 0 0;	
+	display:block;
+	float:left;
+	position:relative;
+	height:36px;
+}
+label.color-opt {
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content:center;
+	position:absolute;
+	inset:1px;
+	border:4px solid #0000;
+	box-sizing:border-box;
+	transition:transform 200ms;
+	border-radius:4px;
+	font-size:12px;
+}
+.rad-hid:checked+label.color-opt {
+	border-color:#fff;
+	transform:translateY(-4px);
+}
