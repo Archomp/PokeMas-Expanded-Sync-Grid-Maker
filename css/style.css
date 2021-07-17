@@ -4,6 +4,8 @@ body {
 	background:#040404;
 	font-family:'Open Sans', Sans Serif;
 }
+.hex-grid-row > textarea:focus {
+}
 .hex-grid-row > textarea.c1 {background-color:#46f;color:#eee}
 .hex-grid-row > textarea.c2 {background-color:#4c6!important;color:#eee}
 .hex-grid-row > textarea.c3 {background-color:#fe4!important;color:#333}
@@ -39,8 +41,7 @@ body {
 	-ms-user.hex-grid-row > textarea.ct: none;
 	user.hex-grid-row > textarea.ct: none;
 	position:relative;
-	max-width:767px;
-	width:100%;
+	width:767px;
 }
 /*
 @keyframes bck {
@@ -48,6 +49,9 @@ body {
   to {background-position:0 240px;}
 }
 */
+.hex-grid-body {
+	padding:12px 0 27px 0;
+}
 .hex-grid-row {
 	display:flex;
 	justify-content:center;
@@ -75,8 +79,10 @@ body {
 	line-height: 12px;
 	font-size: 10px;
 }
+.hex-grid-row > textarea:focus,
 .hex-grid-row > textarea:hover {
 	box-shadow:inset 0 0 100px #fff2;
+	transform:scale(1.6);
 }
 .hex-grid-row > textarea:nth-child(2n) {
 	transform:translateY(-10px);
@@ -123,6 +129,9 @@ body {
 	min-height:60px;
 	max-width:1200px;
 	margin:0 auto;
+}
+.color-pool {
+	clear:both;
 }
 .color-pool > div {
 	width:12.5%;
