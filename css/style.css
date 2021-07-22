@@ -7,7 +7,7 @@ body {
 .hex-grid-row > textarea:focus {
 }
 .hex-grid-row > textarea.c1 {background-color:#46f;color:#eee}
-.hex-grid-row > textarea.c2 {background-color:#4c6!important;color:#eee}
+.hex-grid-row > textarea.c2 {background-color:#4c6!important;color:#333}
 .hex-grid-row > textarea.c3 {background-color:#fe4!important;color:#333}
 .hex-grid-row > textarea.c4 {background-color:#f35!important;color:#eee}
 .hex-grid-row > textarea.c5 {background-color:#d2e!important;color:#eee}
