@@ -9,6 +9,7 @@
 		<title>Sync Grid Maker</title>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap">
 		<link rel="stylesheet" href="css/style.css?v=1.1.2">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body style="padding:0;margin:0;border:0">
 		<div class="hex-grid">
@@ -184,49 +185,62 @@
 			<div class="container color-pool">
 				<h2 style="color:#fff;margin:0">Color</h2>
 				<div>
-					<input type="radio" id="txt" name="color" value="cx" class="rad-hid" checked>
-					<label class="color-opt" for="txt" style="background:#acf;color:#000">Edit Text Only</label>
+					<input type="radio" id="txt" name="color" value="cx" class="rad-hid color-rad" checked>
+					<label class="color-opt leaveblank" for="txt" style="background:#acf;color:#000">Edit Text Only</label>
 				</div>
 				<div>
-					<input type="radio" id="stat" name="color" value="c1" class="rad-hid">
-					<label class="color-opt" for="stat" style="background:#46f">Stat</label>
+					<input type="radio" id="stat" name="color" value="c1" class="rad-hid color-rad">
+					<label class="color-opt editblank" for="stat" style="background:#46f">Stat</label>
 				</div>
 				<div>
-					<input type="radio" id="power" name="color" value="c2" class="rad-hid">
-					<label class="color-opt" for="power" style="background:#4c6">Move Power</label>
+					<input type="radio" id="power" name="color" value="c2" class="rad-hid color-rad">
+					<label class="color-opt editblank" for="power" style="background:#4c6">Move Power</label>
 				</div>
 				<div>
-					<input type="radio" id="skill" name="color" value="c3" class="rad-hid">
-					<label class="color-opt" for="skill" style="background:#fe4">Skill</label>
+					<input type="radio" id="skill" name="color" value="c3" class="rad-hid color-rad">
+					<label class="color-opt editblank" for="skill" style="background:#fe4">Skill</label>
 				</div>
 				<div>
-					<input type="radio" id="msk" name="color" value="c4" class="rad-hid">
-					<label class="color-opt" for="msk" style="background:#f35">Move Skill</label>
+					<input type="radio" id="msk" name="color" value="c4" class="rad-hid color-rad">
+					<label class="color-opt editblank" for="msk" style="background:#f35">Move Skill</label>
 				</div>
 				<div>
-					<input type="radio" id="sync" name="color" value="c5" class="rad-hid">
-					<label class="color-opt" for="sync" style="background:#d2e">Sync Move</label>
+					<input type="radio" id="sync" name="color" value="c5" class="rad-hid color-rad">
+					<label class="color-opt editblank" for="sync" style="background:#d2e">Sync Move</label>
 				</div>
 				<div>
-					<input type="radio" id="center" name="color" value="c6" class="rad-hid">
-					<label class="color-opt cenbut" for="center">Center</label>
+					<input type="radio" id="center" name="color" value="c6" class="rad-hid color-rad">
+					<label class="color-opt cenbut editblank" for="center">Center</label>
 				</div>
 				<div>
-					<input type="radio" id="none" name="color" value="c7" class="rad-hid">
-					<label class="color-opt" for="none" style="background:#222;color:#fff">Clear</label>
+					<input type="radio" id="none" name="color" value="c7" class="rad-hid color-rad">
+					<label class="color-opt leaveblank" for="none" style="background:#222;color:#fff">Clear</label>
 				</div>
 			</div>
 			<div style="clear:both;">
 				<br />
 			</div>
+				<h2 style="color:#fff;margin:0">Preset Layouts</h2>
 			<div class="hex-map">
 				<input type="text" id="map" />
 				<b class="setmap">Set</b>
 				<b class="clearmap">Clear All</b>
 			</div>
+			<div class="hex-templates">
+				<script>
+				   function mapvalue(o){
+					 document.getElementById('map').value=o;
+					}
+				</script>
+				<button class="temp-btn" onclick="mapvalue('00000000000000000000000000000000000000000000000000000000001000000000001610000000000111000000000000000000000000000000000000000000000000000000000');setmap();" style="background:#fff">Reset</button>
+				<button class="temp-btn" onclick="mapvalue('00000000100000000000111000000010511100000011101110000001111100000000111611000000000111110000000110111000000111511100000011100000000001110000000');setmap();" style="background:#f66">Striker Layout</button>
+				<button class="temp-btn" onclick="mapvalue('00001000100000001110111000000111511100000011101110000000011100000000011611000000011111110000001110111000000111511100000000000000000000000000000');setmap();" style="background:#6f6">Technician Layout</button>
+				<button class="temp-btn" onclick="mapvalue('00000000100000000000111000000111511100000011101110000001111100000000001610000000001111000000001110110000000111511100000010101110000000000111000');setmap();" style="background:#66f">Supporter Layout</button>
+				<button class="temp-btn" onclick="mapvalue('00000000000000000001000000000001110000000111111111000011101015100000101610100000111111111000015101011100000101110100000000111000000000000000000');setmap();" style="background:#fac">Oak Layout</button>
+				<button class="temp-btn" onclick="mapvalue('00000000100000000000111000000111511100000011101110000001111110000000111611000000011111100000001110110000000111511100000010101110000000000111000');setmap();" style="background:#8df">Blue Layout</button>
+			</div>
 			<div style="position:absolute;top:12px;right:24px;color:#fff"> Node count: <i id="nodecount"></i></div>
 		</div>
 	</body>
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="js/script.js?v=1.0.6"></script>
 </html>
