@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 760 760" enable-background="new 0 0 760 760" xml:space="preserve">
+<g class="hex-grid-row" id="row-1">
+	<g>
+		<polygon class="node" points="30,2 12,34 30,66 66,66 84,34 66,2"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,35 67,67 85,99 121,99 139,67 121,35"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,2 122,34 140,66 176,66 194,34 176,2"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,35 177,67 195,99 231,99 249,67 231,35"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,2 232,34 250,66 286,66 304,34 286,2"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,35 287,67 305,99 341,99 359,67 341,35"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,2 342,34 360,66 396,66 414,34 396,2"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,35 397,67 415,99 451,99 469,67 451,35"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,2 452,34 470,66 506,66 524,34 506,2"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,35 507,67 525,99 561,99 579,67 561,35"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,2 562,34 580,66 616,66 634,34 616,2"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,35 617,67 635,99 671,99 689,67 671,35"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,2 672,34 690,66 726,66 744,34 726,2"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-2">
+	<g>
+		<polygon class="node" points="30,68 12,100 30,132 66,132 84,100 66,68"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,101 67,133 85,165 121,165 139,133 121,101"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,68 122,100 140,132 176,132 194,100 176,68"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,101 177,133 195,165 231,165 249,133 231,101"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,68 232,100 250,132 286,132 304,100 286,68"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,101 287,133 305,165 341,165 359,133 341,101"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,68 342,100 360,132 396,132 414,100 396,68"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,101 397,133 415,165 451,165 469,133 451,101"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,68 452,100 470,132 506,132 524,100 506,68"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,101 507,133 525,165 561,165 579,133 561,101"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,68 562,100 580,132 616,132 634,100 616,68"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,101 617,133 635,165 671,165 689,133 671,101"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,68 672,100 690,132 726,132 744,100 726,68"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-3">
+	<g>
+		<polygon class="node" points="30,134 12,166 30,198 66,198 84,166 66,134"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,167 67,199 85,231 121,231 139,199 121,167"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,134 122,166 140,198 176,198 194,166 176,134"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,167 177,199 195,231 231,231 249,199 231,167"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,134 232,166 250,198 286,198 304,166 286,134"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,167 287,199 305,231 341,231 359,199 341,167"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,134 342,166 360,198 396,198 414,166 396,134"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,167 397,199 415,231 451,231 469,199 451,167"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,134 452,166 470,198 506,198 524,166 506,134"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,167 507,199 525,231 561,231 579,199 561,167"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,134 562,166 580,198 616,198 634,166 616,134"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,167 617,199 635,231 671,231 689,199 671,167"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,134 672,166 690,198 726,198 744,166 726,134"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-4">
+	<g>
+		<polygon class="node" points="30,200 12,232 30,264 66,264 84,232 66,200"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,233 67,265 85,297 121,297 139,265 121,233"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,200 122,232 140,264 176,264 194,232 176,200"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,233 177,265 195,297 231,297 249,265 231,233"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,200 232,232 250,264 286,264 304,232 286,200"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,233 287,265 305,297 341,297 359,265 341,233"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,200 342,232 360,264 396,264 414,232 396,200"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,233 397,265 415,297 451,297 469,265 451,233"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,200 452,232 470,264 506,264 524,232 506,200"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,233 507,265 525,297 561,297 579,265 561,233"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,200 562,232 580,264 616,264 634,232 616,200"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,233 617,265 635,297 671,297 689,265 671,233"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,200 672,232 690,264 726,264 744,232 726,200"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-5">
+	<g>
+		<polygon class="node" points="30,266 12,298 30,330 66,330 84,298 66,266"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,299 67,331 85,363 121,363 139,331 121,299"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,266 122,298 140,330 176,330 194,298 176,266"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,299 177,331 195,363 231,363 249,331 231,299"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,266 232,298 250,330 286,330 304,298 286,266"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,299 287,331 305,363 341,363 359,331 341,299"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,266 342,298 360,330 396,330 414,298 396,266"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,299 397,331 415,363 451,363 469,331 451,299"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,266 452,298 470,330 506,330 524,298 506,266"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,299 507,331 525,363 561,363 579,331 561,299"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,266 562,298 580,330 616,330 634,298 616,266"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,299 617,331 635,363 671,363 689,331 671,299"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,266 672,298 690,330 726,330 744,298 726,266"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-6">
+	<g>
+		<polygon class="node" points="30,332 12,364 30,396 66,396 84,364 66,332"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,365 67,397 85,429 121,429 139,397 121,365"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,332 122,364 140,396 176,396 194,364 176,332"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,365 177,397 195,429 231,429 249,397 231,365"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,332 232,364 250,396 286,396 304,364 286,332"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,365 287,397 305,429 341,429 359,397 341,365"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,332 342,364 360,396 396,396 414,364 396,332"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,365 397,397 415,429 451,429 469,397 451,365"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,332 452,364 470,396 506,396 524,364 506,332"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,365 507,397 525,429 561,429 579,397 561,365"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,332 562,364 580,396 616,396 634,364 616,332"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,365 617,397 635,429 671,429 689,397 671,365"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,332 672,364 690,396 726,396 744,364 726,332"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-7">
+	<g>
+		<polygon class="node" points="30,398 12,430 30,462 66,462 84,430 66,398"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,431 67,463 85,495 121,495 139,463 121,431"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,398 122,430 140,462 176,462 194,430 176,398"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,431 177,463 195,495 231,495 249,463 231,431"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,398 232,430 250,462 286,462 304,430 286,398"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,431 287,463 305,495 341,495 359,463 341,431"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,398 342,430 360,462 396,462 414,430 396,398"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,431 397,463 415,495 451,495 469,463 451,431"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,398 452,430 470,462 506,462 524,430 506,398"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,431 507,463 525,495 561,495 579,463 561,431"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,398 562,430 580,462 616,462 634,430 616,398"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,431 617,463 635,495 671,495 689,463 671,431"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,398 672,430 690,462 726,462 744,430 726,398"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-8">
+	<g>
+		<polygon class="node" points="30,464 12,496 30,528 66,528 84,496 66,464"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,497 67,529 85,561 121,561 139,529 121,497"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,464 122,496 140,528 176,528 194,496 176,464"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,497 177,529 195,561 231,561 249,529 231,497"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,464 232,496 250,528 286,528 304,496 286,464"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,497 287,529 305,561 341,561 359,529 341,497"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,464 342,496 360,528 396,528 414,496 396,464"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,497 397,529 415,561 451,561 469,529 451,497"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,464 452,496 470,528 506,528 524,496 506,464"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,497 507,529 525,561 561,561 579,529 561,497"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,464 562,496 580,528 616,528 634,496 616,464"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,497 617,529 635,561 671,561 689,529 671,497"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,464 672,496 690,528 726,528 744,496 726,464"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-9">
+	<g>
+		<polygon class="node" points="30,530 12,562 30,594 66,594 84,562 66,530"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,563 67,595 85,627 121,627 139,595 121,563"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,530 122,562 140,594 176,594 194,562 176,530"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,563 177,595 195,627 231,627 249,595 231,563"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,530 232,562 250,594 286,594 304,562 286,530"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,563 287,595 305,627 341,627 359,595 341,563"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,530 342,562 360,594 396,594 414,562 396,530"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,563 397,595 415,627 451,627 469,595 451,563"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,530 452,562 470,594 506,594 524,562 506,530"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,563 507,595 525,627 561,627 579,595 561,563"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,530 562,562 580,594 616,594 634,562 616,530"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,563 617,595 635,627 671,627 689,595 671,563"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,530 672,562 690,594 726,594 744,562 726,530"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-10">
+	<g>
+		<polygon class="node" points="30,596 12,628 30,660 66,660 84,628 66,596"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,629 67,661 85,693 121,693 139,661 121,629"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,596 122,628 140,660 176,660 194,628 176,596"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,629 177,661 195,693 231,693 249,661 231,629"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,596 232,628 250,660 286,660 304,628 286,596"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,629 287,661 305,693 341,693 359,661 341,629"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,596 342,628 360,660 396,660 414,628 396,596"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,629 397,661 415,693 451,693 469,661 451,629"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,596 452,628 470,660 506,660 524,628 506,596"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,629 507,661 525,693 561,693 579,661 561,629"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,596 562,628 580,660 616,660 634,628 616,596"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,629 617,661 635,693 671,693 689,661 671,629"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,596 672,628 690,660 726,660 744,628 726,596"/>
+	</g>
+</g>
+<g class="hex-grid-row" id="row-11">
+	<g>
+		<polygon class="node" points="30,662 12,694 30,726 66,726 84,694 66,662"/>
+	</g>
+	<g>
+		<polygon class="node" points="85,695 67,727 85,759 121,759 139,727 121,695"/>
+	</g>
+	<g>
+		<polygon class="node" points="140,662 122,694 140,726 176,726 194,694 176,662"/>
+	</g>
+	<g>
+		<polygon class="node" points="195,695 177,727 195,759 231,759 249,727 231,695"/>
+	</g>
+	<g>
+		<polygon class="node" points="250,662 232,694 250,726 286,726 304,694 286,662"/>
+	</g>
+	<g>
+		<polygon class="node" points="305,695 287,727 305,759 341,759 359,727 341,695"/>
+	</g>
+	<g>
+		<polygon class="node" points="360,662 342,694 360,726 396,726 414,694 396,662"/>
+	</g>
+	<g>
+		<polygon class="node" points="415,695 397,727 415,759 451,759 469,727 451,695"/>
+	</g>
+	<g>
+		<polygon class="node" points="470,662 452,694 470,726 506,726 524,694 506,662"/>
+	</g>
+	<g>
+		<polygon class="node" points="525,695 507,727 525,759 561,759 579,727 561,695"/>
+	</g>
+	<g>
+		<polygon class="node" points="580,662 562,694 580,726 616,726 634,694 616,662"/>
+	</g>
+	<g>
+		<polygon class="node" points="635,695 617,727 635,759 671,759 689,727 671,695"/>
+	</g>
+	<g>
+		<polygon class="node" points="690,662 672,694 690,726 726,726 744,694 726,662"/>
+	</g>
+</g>
+<style>
+	#row-1 polygon {fill:#222;}
+	#row-2 polygon {fill:#333;}
+	#row-3 polygon {fill:#444;}
+	#row-4 polygon {fill:#555;}
+	#row-5 polygon {fill:#666;}
+	#row-6 polygon {fill:#777;}
+	#row-7 polygon {fill:#888;}
+	#row-8 polygon {fill:#999;}
+	#row-9 polygon {fill:#aaa;}
+	#row-10 polygon {fill:#bbb;}
+	#row-11 polygon {fill:#ccc;}
+</style>
+</svg>

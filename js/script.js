@@ -231,7 +231,7 @@ $("#type").on('change', function(){
 $(document).ready(function(e) {
 	//opentools
 	$(".openedit").click(function() {
-		$(".hex-grid-tools").toggleClass("open");
+		$(".toggle").toggleClass("open");
 		console.log("open");
 	});
     mapnodes();

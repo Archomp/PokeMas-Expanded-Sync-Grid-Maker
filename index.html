@@ -13,14 +13,14 @@
   </head>
   <body style="">
     <button id="togglebutton" class="cenbut openedit">
-		<div style="height:48px;width:48px;background-image:url(img/edit.svg)"></div>	
+		<div class="toggraphic toggle"></div>	
 	</button>
 <div class="container">
       <div class="hex-grid">
         <div class="wrap">
 			<h2 style="color:#fff;padding-left:4px;">Sync Grid Maker</h2>
           <div class="hex-grid-frame">
-			  <div class="hex-grid-body">
+			  <div class="hex-grid-body"  id="canvas">
 				<ul class="hex-grid-row">
 				  <li class="cX">
 					<object class="node-icon" type="image/svg+xml" data=""></object>
@@ -620,7 +620,7 @@
 		</div>
 		</div>
         <div class="wrap">
-          <div class="hex-grid-tools open">
+          <div class="hex-grid-tools toggle">
             <div class="wrap">
               <h2 style="color:#fff;clear:both;">Node Options</h2>
               <div class="color-pool">
@@ -744,4 +744,6 @@
     </div>
   </body>
   <script src="js/script.js?v=1.2.0"></script>
+  <script src="http://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+  
 </html>
