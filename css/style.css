@@ -29,19 +29,27 @@ ul.hex-grid-row {position:relative;list-style:none;padding:0;margin:2px auto;dis
 ul.hex-grid-row li textarea {position:absolute;top:0;left:0;bottom:0;border:0;background:none;outline:0;font-size:10px;font-weight:700;line-height:10px;text-align:center;width:100%;resize:none;overflow:hidden;padding:27px 0 0 0;color:#fff;
 text-shadow:0 0 1px #000,0 0 1px #000,0 0 1px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000}
 ul.hex-grid-row li textarea:disabled {color:#fff}
-ul.hex-grid-row li.c1 {background-color:#46f}
-ul.hex-grid-row li.c2,
-ul.hex-grid-row li.cA, ul.hex-grid-row li.cB, ul.hex-grid-row li.cC,
-ul.hex-grid-row li.cD, ul.hex-grid-row li.cE, ul.hex-grid-row li.cF,
-ul.hex-grid-row li.cG, ul.hex-grid-row li.cH, ul.hex-grid-row li.cI,
-ul.hex-grid-row li.cJ, ul.hex-grid-row li.cK, ul.hex-grid-row li.cL,
-ul.hex-grid-row li.cM, ul.hex-grid-row li.cN, ul.hex-grid-row li.cO,
-ul.hex-grid-row li.cP, ul.hex-grid-row li.cQ, ul.hex-grid-row li.cR
+ul.hex-grid-row li.x1 {background-color:#46f}
+ul.hex-grid-row li.x2,
+ul.hex-grid-row li.xA, ul.hex-grid-row li.xB, ul.hex-grid-row li.xC,
+ul.hex-grid-row li.xD, ul.hex-grid-row li.xE, ul.hex-grid-row li.xF,
+ul.hex-grid-row li.xG, ul.hex-grid-row li.xH, ul.hex-grid-row li.xI,
+ul.hex-grid-row li.xJ, ul.hex-grid-row li.xK, ul.hex-grid-row li.xL,
+ul.hex-grid-row li.xM, ul.hex-grid-row li.xN, ul.hex-grid-row li.xO,
+ul.hex-grid-row li.xP, ul.hex-grid-row li.xQ, ul.hex-grid-row li.xR
 	{background-color:#4c6!important}
-ul.hex-grid-row li.c3 {background-color:#fe4!important}
-ul.hex-grid-row li.c4 {background-color:#f35!important}
-ul.hex-grid-row li.c5 {background-color:#d2e!important}
-ul.hex-grid-row li.c6, .cenbut {
+.maxlabel,
+ul.hex-grid-row li.xa, ul.hex-grid-row li.xb, ul.hex-grid-row li.xc,
+ul.hex-grid-row li.xd, ul.hex-grid-row li.xe, ul.hex-grid-row li.xf,
+ul.hex-grid-row li.xg, ul.hex-grid-row li.xh, ul.hex-grid-row li.xi,
+ul.hex-grid-row li.xj, ul.hex-grid-row li.xk, ul.hex-grid-row li.xl,
+ul.hex-grid-row li.xm, ul.hex-grid-row li.xn, ul.hex-grid-row li.xo,
+ul.hex-grid-row li.xp, ul.hex-grid-row li.xq, ul.hex-grid-row li.xr
+	{background: linear-gradient(120deg, rgba(255,221,102,1) 0%, rgba(255,102,102,1) 50%, rgba(255,102,221,1) 100%)!important}
+ul.hex-grid-row li.x3 {background-color:#fe4!important}
+ul.hex-grid-row li.x4 {background-color:#f35!important}
+ul.hex-grid-row li.x5 {background-color:#d2e!important}
+ul.hex-grid-row li.x6, .cenbut {
 	background:
 		linear-gradient(270deg, rgba(255,255,0,0) 30%, rgba(255,255,0,.6) 100%),
 		linear-gradient(30deg, rgba(255,0,255,0) 30%, rgba(255,0,255,.6) 100%),
@@ -91,6 +99,7 @@ transform:rotate(-45deg);
 .rad-hid:checked+label.color-opt::before {
 	border-color:#000;
 }
+select#maxtype,
 select#type {
 	margin:0 0 12px 0;
 	padding:2px 12px 2px 2px;

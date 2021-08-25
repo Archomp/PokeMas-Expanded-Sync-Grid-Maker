@@ -4,7 +4,7 @@ var nodescr = $('ul.hex-grid-row li textarea'); //GRIDnodescr
 //MAP ALL THE NODES' TYPE
 function mapnodes() {
     var nmap = nodes.map(function() {
-        return $(this).attr('class').replace('c', '');
+        return $(this).attr('class').replace('x', '');
     }).get().join('');
     $('textarea#map').val(nmap);
 }
@@ -20,12 +20,12 @@ function nodepad(elem) {
 }
 //COUNT HOW MANY COLORED NODES
 function countnodes() {
-    var stat = $('.c1').length,
-	mpow = $('.cA,.cB,.cC,.cD,.cE,.cF,.cG,.cH,.cI,.cJ,.cK,.cL,.cM,.cN,.cO,.cP,.cQ,.cR').length,
-	skill = $('.c3').length,
-	mskl = $('.c4').length,
-	sync = $('.c5').length,
-	center = $('.c6').length;
+    var stat = $('.x1').length,
+	mpow = $('.xA,.xB,.xC,.xD,.xE,.xF,.xG,.xH,.xI,.xJ,.xK,.xL,.xM,.xN,.xO,.xP,.xQ,.xR').length,
+	skill = $('.x3').length,
+	mskl = $('.x4').length,
+	sync = $('.x5').length,
+	center = $('.x6').length;
     $("#statcount").text(stat);
     $("#mpowcount").text(mpow);
     $("#skillcount").text(skill);
@@ -102,8 +102,8 @@ nodescr.on('input focus keydown', function(e) {
 	var textlen = text.length,
     lines = text.split(/(\r\n|\n|\r)/gm);
 	for (var i = 0; i < lines.length; i++) {
-        if (lines[i].length > 8) {
-            lines[i] = lines[i].substring(0, 8);
+        if (lines[i].length > 10) {
+            lines[i] = lines[i].substring(0, 10);
         }
     }
     $(this).val(lines.join(''));
@@ -138,7 +138,7 @@ nodescr.on('input focus keydown', function(e) {
 		var moveto = $(this).closest('.hex-grid-row').find('textarea:eq(' + ( nodex + 1 ) + ')');
 		}
 		moveto.prop("disabled", false).focus();
-        return false;f
+        return false;
     } //LEFT, SWITCH FOCUS TO A NODE TO THE LEFT
     else if (e.keyCode == 37 && caretA <= 0) {
 		if (nodex == 0) {
@@ -187,32 +187,44 @@ nodes.mousedown(function() {
 });
 //CHANGE NODE TYPE WITH BRUSH
 var mtype = "A";
+var maxtype = "a";
 function brush(elem) {
     var elem = $(elem);
 	var icon = elem.find('object.node-icon');
     if ($('#stat').is(':checked')) {
-        elem.attr('class', 'c1');
+        elem.attr('class', 'x1');
 		icon.attr("data", "img/icons/statistic.svg");
     } else if ($('#power').is(':checked')) {
-        elem.attr('class', 'c' + mtype);
+        elem.attr('class', 'x' + mtype);
 		icon.attr("data", "img/icons/" + mtype + ".svg");
+    } else if ($('#max').is(':checked')) {
+        elem.attr('class', 'x' + maxtype);
+		icon.attr("data", "img/icons/" + maxtype + ".svg");
     } else if ($('#skill').is(':checked')) {
-        elem.attr('class', 'c3');
+        elem.attr('class', 'x3');
 		icon.attr("data", "img/icons/passive.svg");
     } else if ($('#msk').is(':checked')) {
-        elem.attr('class', 'c4');
+        elem.attr('class', 'x4');
 		icon.attr("data", "img/icons/passive.svg");
     } else if ($('#sync').is(':checked')) {
-        elem.attr('class', 'c5');
+        elem.attr('class', 'x5');
 		icon.attr("data", "img/icons/sync.svg");
     } else if ($('#center').is(':checked')) {
-        elem.attr('class', 'c6');
+        elem.attr('class', 'x6');
 		icon.attr("data", "img/icons/center.svg");
     } else if ($('#none').is(':checked')) {
-        elem.attr('class', 'cX');
+        elem.attr('class', 'xX');
 		icon.removeAttr("data");
     }
 }
+$('select#type').on('change', function() {
+	mtype = $(this).val();
+	$("input#power").prop("checked",true);
+});
+$('select#maxtype').on('change', function() {
+	maxtype = $(this).val();
+	$("input#max").prop("checked",true);
+});
 $('select#type').on('change', function() {
 	mtype = $(this).val();
 });
@@ -223,9 +235,6 @@ nodescr.on("focusout", function(e) {
 //DOUBLE CLICK TO ADD DESCRIPTION
 nodes.dblclick(function() {
 	$(this).find('textarea').prop("disabled", false).focus();
-});
-$("#type").on('change', function(){
-	$("input#power").prop("checked",true);
 });
 //DOC READY
 $(document).ready(function(e) {
