@@ -48,27 +48,27 @@ function setmap() {
 				$(nodes[i]).find('object.node-icon').removeAttr("data");
 			}
 			else if (nodemap[i] == '1') {
-				$(nodes[i]).attr('class', 'c1');
+				$(nodes[i]).attr('class', 'x1');
 				$(nodes[i]).find('object.node-icon').attr("data", "img/icons/statistic.svg");
 			}
 			else if (nodemap[i] == '3') {
-				$(nodes[i]).attr('class', 'c3');
+				$(nodes[i]).attr('class', 'x3');
 				$(nodes[i]).find('object.node-icon').attr("data", "img/icons/passive.svg");
 			}
 			else if (nodemap[i] == '4') {
-				$(nodes[i]).attr('class', 'c4');
+				$(nodes[i]).attr('class', 'x4');
 				$(nodes[i]).find('object.node-icon').attr("data", "img/icons/passive.svg");
 			}
 			else if (nodemap[i] == '5') {
-				$(nodes[i]).attr('class', 'c5');
+				$(nodes[i]).attr('class', 'x5');
 				$(nodes[i]).find('object.node-icon').attr("data", "img/icons/sync.svg");
 			}
 			else if (nodemap[i] == '6') {
-				$(nodes[i]).attr('class', 'c6');
+				$(nodes[i]).attr('class', 'x6');
 				$(nodes[i]).find('object.node-icon').attr("data", "img/icons/center.svg");
 			}
 			else {
-				$(nodes[i]).attr('class', 'c' + nodemap[i]);
+				$(nodes[i]).attr('class', 'x' + nodemap[i]);
 				$(nodes[i]).find('object.node-icon').attr("data", "img/icons/" + nodemap[i] + ".svg");
 			}
         }
