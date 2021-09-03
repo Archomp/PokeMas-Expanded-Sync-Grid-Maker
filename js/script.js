@@ -199,7 +199,7 @@ function brush(elem) {
 		icon.attr("data", "img/icons/" + mtype + ".svg");
     } else if ($('#max').is(':checked')) {
         elem.attr('class', 'x' + maxtype);
-		icon.attr("data", "img/icons/" + maxtype + ".svg");
+		icon.attr("data", "img/icons/" + maxtype.toUpperCase() + ".svg");
     } else if ($('#skill').is(':checked')) {
         elem.attr('class', 'x3');
 		icon.attr("data", "img/icons/passive.svg");
